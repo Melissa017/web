@@ -5,27 +5,27 @@ body{
 #sitio {
     background-color: beige;
     width: 768px;
-    height: 1027px;
+    height: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 header {
     background-image: url(imagenes/IMG-20230117-WA0008.jpg);
     width: 768px;
-    height: 210px;
+    height: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 article {
     background-image: url(imagenes/principal.png);
     width: 768px;
-    height: 700px;
+    height: 774px;
     text-align: center;
 }
 footer {
     background-image: url(imagenes/footer.webp);
     width: 768px;
-    height: 124px;
+    height: 100px;
     text-align: center;
 }
 .navegacion{
@@ -74,6 +74,3 @@ ul.botonera li a{
     text-decoration: none;
     line-height: 90px;
 }
-.logo {
-    sombra de caja: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
-  }
