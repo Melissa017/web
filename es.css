@@ -1,0 +1,64 @@
+body{
+    background-image: url(fondom.png); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+#sitio {
+    opacity: 1.0;
+    width: 768px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px white solid;
+
+}
+header {
+    background-image: url(avion.jpg);
+    width: 768px;
+    height: 200px;
+    text-align: center;
+}
+#logo{
+    height: 75px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+article {
+    width: 768px;
+    height: 774px;
+    text-align: center;
+}
+footer {
+    background-image: url(footer2.jpg);
+    width: 768px;
+    height: 50px;
+    text-align: center;
+}
+.navega{
+    width: 500px;
+    height: 40px;
+    display: inline;
+    text-align: center;
+}
+ul.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul.menu li{
+    display: inline;  
+}
+ul.menu li a{
+    width: 80px;
+    height: 60px;
+    background-color: cornflowerblue;
+    margin-bottom: 0px;
+    display: inline-block;
+    color: black;
+    border: 1px white solid;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 60px;
+}
