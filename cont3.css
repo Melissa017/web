@@ -1,0 +1,24 @@
+body{
+    background-image: url(fondocont.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.four{
+    background-color: coral;
+    width: 50px;
+    height: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 1px white solid;
+}
+h1{
+    color: white;
+    text-align: center;
+}
