@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0"/>
+    <title>Encuesta de Satisfacción</title>
+    <link href="formcss.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><b><i><u>Encuesta de Satisfacción</u></i></b></h1>
+    <p>Nuestro objetivo con esta encuesta es saber las opiniones de cada uno para poder mejorar nuestra página y así darles una mejor calidad de información y que disfruten del sitio.</p>
+    <form name="contact" method="POST" data-netlify="true"><ul>
+        <p><li><label for="nombre"><b>Ingrese su nombre:</b></label>
+        <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre"></li></p>
+        <p><li><label for="ubicacion"><b>¿De dónde es?</b></label>
+        <input type="text" placeholder="Provincia" name="prov" id="prov">
+        <input type="text" placeholder="País" name="pais" id="pais"></li></p>
+        <p><li><label for="opinion"><b>¿Cómo te pareció el artículo?</b></label>
+        <input type="text" name="opinion" id="opinion"></li></p>
+        <p><li><label for="mejorar"><b>¿En qué podríamos mejorar?</b></label>
+        <input type="text" name="mejorar" id="mejorar"></li></p>
+        <p><li><label for="info"><b>¿Le pareció interesante la información del artículo?</b></label>
+        <input type="checkbox" name="info" id="info">Sí, me pareció interesante.
+        <input type="checkbox" name="info" id="info">No, no me pareció interesante.</li></p>
+        <p><li><label for="lugares"><b>¿Sobre qué lugar te gustaría recibir más información?</b></label>
+        <input type="text" name="lugares" id="lugares"></li></p>
+        <p><li><label for="fav"><b>¿Cuál es tu aerolínea favorita?</b></label>
+        <select name="fav" id="fav">
+            <option value="Gorostiaga"><i>Aereolineas Argentinas</i></option>
+            <option value="Atalaya"><i>JetSmart</i></option>
+            <option value="Rawson"><i>Flybondi</i></option>
+            <option value="3"><i>Los 3</i></option>
+        </select></li></p>
+        <p><li><label for="comentario"><i>Comentarios</i></label>
+        <input type="text" name="comentario" id="comentario"></li></p>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Atrás">
+       </ul></form>
+</body>
+</html>
